@@ -160,7 +160,7 @@ def main():
         
     if st.button("About"):
         st.markdown("Made with :heartbeat: ")
-        st.markdown("**Ruchika Bihari** | **Aditya** ")
+        st.markdown("**Ruchika Bihari** | **Adityavyshnav** ")
 
         
 
