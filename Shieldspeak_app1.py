@@ -2,22 +2,21 @@ import numpy as np
 import pickle
 import pandas as pd
 import re
-#from flasgger import Swagger
 import streamlit as st 
 import modules as mod
 from PIL import Image
 from sklearn.feature_extraction.text import TfidfVectorizer
-# from twilio.rest import Client
+
 
 import smtplib
 import ssl
 from email.message import EmailMessage
 import configparser
 
+
+
 tfidf_vectorizer = TfidfVectorizer()
 
-app=Flask(__name__)
-Swagger(app)
 
 
 pickle_in = open("F:/SOP/codeathon1.pkl","rb")
@@ -26,10 +25,9 @@ classifier=pickle.load(pickle_in)
 
 tfidf_vectorizer=pickle.load(open("F:/SOP/tfidf_vectorizer.pickle", 'rb'))
 
-@app.route('/')
+#@app.route('/')
 def welcome():
     return "Welcome All"
-
 
 
 def send_email(subject, body):
@@ -38,7 +36,7 @@ def send_email(subject, body):
 
     email_sender = "semthreecs@gmail.com"
     email_password = "bfqt hoec iapq bbnk"
-    email_receiver = "codeadityavyshnav@gmail.com"
+    email_receiver = "satyajeetnarayan9@gmail.com"
 
     em = EmailMessage()
     em.set_content(body)
@@ -52,6 +50,9 @@ def send_email(subject, body):
         smtp.login(email_sender, email_password)
         smtp.send_message(em)
         print("sent mail")
+
+
+
 
 
 def get_type(data):
@@ -106,7 +107,6 @@ def encourage(label):
 #@app.route('/predict',methods=["Get"])
 def predict_note_authentication(val):
  
-#    val=input("Enter the comment: ")
 
     val=mod.rem_punc(val)
     val=mod.remove_stopwords(val)
@@ -115,12 +115,6 @@ def predict_note_authentication(val):
 
     type=get_type(classifier.predict(val)[0])
     return get_type(classifier.predict(val)[0]), encourage(type)
-
-# print(" Verdict: \n",get_type(clf.predict(val)[0]))
-    # prediction=classifier.predict([[variance,skewness,curtosis,entropy]])
-    # print(prediction)
-    # return prediction
-
 
 
 def main():
@@ -160,14 +154,9 @@ def main():
         
     if st.button("About"):
         st.markdown("Made with :heartbeat: ")
-        st.markdown("**Ruchika Bihari** | **Adityavyshnav** ")
+        st.markdown("**Ruchika Bihari** | **Aditya** ")
 
         
 
 if __name__=='__main__':
     main()
-
-
-
-
-
