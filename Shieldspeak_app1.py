@@ -18,12 +18,11 @@ import configparser
 tfidf_vectorizer = TfidfVectorizer()
 
 
-
-pickle_in = open("F:/SOP/codeathon1.pkl","rb")
-classifier=pickle.load(pickle_in)
+classifier=pickle.load(open("Adityavyshnav-2001/CyberBully_ML/shield.pkl","rb"))
 
 
-tfidf_vectorizer=pickle.load(open("F:/SOP/tfidf_vectorizer.pickle", 'rb'))
+
+tfidf_vectorizer=pickle.load(open("/Users/adityavyshnav/Desktop/cybuuuuu/tfidf_vectorizer.pkl", 'rb'))
 
 #@app.route('/')
 def welcome():
@@ -36,7 +35,7 @@ def send_email(subject, body):
 
     email_sender = "semthreecs@gmail.com"
     email_password = "bfqt hoec iapq bbnk"
-    email_receiver = "satyajeetnarayan9@gmail.com"
+    email_receiver = "codeadityavyshnav@gmail.com"
 
     em = EmailMessage()
     em.set_content(body)
