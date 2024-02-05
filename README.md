@@ -10,6 +10,8 @@ The challenge is to develop a machine learning model that can accurately identif
 This solution aims to provide a proactive approach to combating cyberbullying, ensuring a safer and more inclusive environment for all users. The effectiveness of the model will be measured by its accuracy in correctly identifying and categorizing comments, as well as its 
 efficiency in alerting the cybersecurity cell.
 
+Teck stack - Python , numpy . pandas , sklearn , NLP , streamlab , jupyter notebook , ntlk
+
 
 <img width="1440" alt="Screenshot 2024-02-05 at 12 22 15 PM" src="https://github.com/Adityavyshnav-2001/CyberBully_ML/assets/148896965/c5b778f4-5992-4ee7-aa0c-9b3054efcf34">
 #Before mail is sent
