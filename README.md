@@ -19,3 +19,15 @@ efficiency in alerting the cybersecurity cell.
 <img width="1440" alt="Screenshot 2024-02-05 at 12 23 13 PM" src="https://github.com/Adityavyshnav-2001/CyberBully_ML/assets/148896965/b0d5bb5a-7620-4288-8fef-c3889796bee6">
 
 
+
+Future Scopes:
+
+1. **Expansion to Other Platforms:** The model can be expanded to other social media platforms like Facebook, Instagram, LinkedIn, etc., to ensure a broader coverage against cyberbullying.
+
+2. **Real-Time Monitoring:** The system can be improved to provide real-time monitoring and detection of cyberbullying, which will help in taking immediate action against the violators.
+
+3. **User Profiling:** The system can be enhanced to profile users based on their past comments and behavior. This will help in identifying potential cyberbullies and take preventive measures.
+
+4. **Integration with Law Enforcement:** The system can be integrated with law enforcement agencies. This will allow automatic reporting of severe cases, leading to quicker response and action against the culprits.
+
+5. **Improving Accuracy:** Continuous improvement and training of the machine learning model with new data will help in increasing the accuracy of cyberbullying detection. This will ensure that the system stays effective as new forms and patterns of cyberbullying emerge.
