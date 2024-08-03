@@ -2,7 +2,15 @@
 <img width="1440" alt="Screenshot 2024-02-05 at 12 21 29 PM" src="https://github.com/Adityavyshnav-2001/CyberBully_ML/assets/148896965/79c5d5aa-e7ca-442b-89d2-3cab7db9f682"> .
 # Live Demo
 
-https://github.com/user-attachments/assets/14c0937f-78be-42ba-80d5-ed93d6c90fd1
+
+https://github.com/user-attachments/assets/9c3a383b-b3c4-489b-a584-99369854f0ca
+
+
+https://github.com/user-attachments/assets/c8fc35d7-c095-410f-9449-145f62ae8a3f
+
+
+
+
 
 Problem Statement:
 
