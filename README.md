@@ -1,5 +1,5 @@
 # ClipDive - A Community Centric Cyber Bullying Webapp
-<img width="1440" alt="Screenshot 2024-02-05 at 12 21 29 PM" src="https://github.com/Adityavyshnav-2001/CyberBully_ML/assets/148896965/79c5d5aa-e7ca-442b-89d2-3cab7db9f682"> .
+<img width="1433" alt="image" src="https://github.com/user-attachments/assets/ba7ee6c6-5e2d-420b-b0b7-86ddb298d320">
 # Live Demo
 
 
